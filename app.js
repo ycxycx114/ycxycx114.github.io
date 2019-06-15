@@ -1,5 +1,4 @@
-$(function() {
-  $("#btnHu").on("click", function() {
-    alert("余宝宝❤️胡宝宝");
-  });
+$(function() {});
+$("#btnHu").on("click", function() {
+  $("#my-modal").modal("show");
 });
